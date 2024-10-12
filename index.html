@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censo Galático</title>
+</head>
+<body onload="fetchPlanets(startPage)">
+    <h1>Censo Galático</h1>
+
+    <nav>
+        <div id="pesquisa">
+            <input type="text" id="planetName">
+            <button onclick="searchPlanet()">Pesquisar</button>
+        </div>
+
+        <div id="planets"></div>
+
+        <div id="navigation"></div>
+    </nav>
+    <br><br>
+    <section>
+        <div id="planet"></div>
+        <div id="residents"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
